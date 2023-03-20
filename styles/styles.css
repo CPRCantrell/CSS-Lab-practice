@@ -1,0 +1,125 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    padding-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    background-color: #dfe9fb;
+}
+
+/* Create your own classes below! */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+  }
+
+.nav li {
+    float: left;
+  }
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+  }
+
+.nav li a:hover {
+    background-color: cornflowerblue;
+  }
+
+.active{
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+.gimme-space{
+    margin: 20px;
+}
+
+.px-thick-rouned-border{
+    width: 400px;
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: justify;
+    align-self: center;
+}
+
+.triadic-background-one{
+    background-color: #e9fbdf;
+}
+
+.triadic-background-two{
+    background-color: #fbdfe9;
+}
+
+.text-boxes-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-box-container{
+    width: 440px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.multi-container-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-sample-one{
+    width: 100vh;
+    height: 100vh;
+}
+
+.div-sample-two{
+    width: 100%;
+    height: 10vh;
+}
+
+.div-img-test-one{
+    background-image: url("../images/coffee.jpg");
+    width: 100%;
+}
+
+.div-image-height{
+    visibility: hidden;
+}
+
+.div-img-test-two{
+    background-image: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.div-img-test-three{
+    background-image: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
